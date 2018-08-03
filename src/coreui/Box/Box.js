@@ -23,6 +23,7 @@ import {
   right,
   bottom,
   left,
+  zIndex,
 } from 'styled-system';
 
 const Box = styled.div`
@@ -48,9 +49,9 @@ const Box = styled.div`
   ${left}
   ${position}
   ${alignSelf}
+  ${zIndex}
   visibility: ${props => props.visibility || 'visible'};
   opacity: ${props => props.opacity || '1'};
-  z-index: ${props => props.zIndex || 'auto'};
   overflow-x: ${props => props.overflowX || 'visible'};
   overflow-y: ${props => props.overflowY || 'visible'};
   box-sizing: ${props => props.boxSizing || 'content-box'};

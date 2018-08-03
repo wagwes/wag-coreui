@@ -24,11 +24,11 @@ const colors = {
     '#5082e5',
   ],
   gray: [
-    '#727272',
-    '#ededed',
-    '#aaaaaa',
-    '#d1d1d1',
-    '#e5e0d3',
+    '#727272', // 0
+    '#ededed', // 1
+    '#aaaaaa', // 2
+    '#d1d1d1', // 3
+    '#e5e0d3', // 4,
   ],
   yellow: [
     '#fae7a8',
@@ -112,10 +112,10 @@ const lineHeights = [
 ];
 
 // QUESTION: How do we import fonts? Typekit? Typography.com?
-const fontFamily = {
+const fonts = {
   heading: '"Grilled Cheese"',
-  subHeading: 'Helvetica Neue Bold',
-  body: 'Helvetica Neue Regular',
+  subHeading: '"Helvetica Neue Bold", Helvetica, Arial, sans-serif',
+  body: '"Helvetica Neue Regular", Helvetica, Arial, sans-serif',
 };
 
 const Theme = {
@@ -128,7 +128,7 @@ const Theme = {
   letterSpacings,
   radii,
   lineHeights,
-  fontFamily,
+  fonts,
 };
 
 export default Theme;

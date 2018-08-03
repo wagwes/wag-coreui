@@ -47,7 +47,6 @@ const Flex = styled.div`
   ${bottom}
   ${left}
   ${backgroundImage}
-  ${responsiveBackgroundSize}
   ${backgroundPosition}
   ${backgroundRepeat}
   ${backgroundSize}

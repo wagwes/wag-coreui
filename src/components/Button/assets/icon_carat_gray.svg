@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="11px" viewBox="0 0 8 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_back_c01</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon_carat" transform="translate(-6.000000, -12.000000)" fill="#727272" fill-rule="nonzero">
+            <path d="M6.13616825,22.1513799 C5.88800891,21.6367243 6.02550576,21.0441927 6.48437492,20.6508114 L10.1383841,17.5092554 L6.48437492,14.3676995 C5.84980923,13.8356226 5.83708513,12.9620159 6.45595488,12.4164442 C7.07482462,11.8708726 8.09093483,11.859933 8.72550055,12.3920099 L13.5284926,16.5249013 C13.8302388,16.7818752 14,17.1318828 14,17.4970383 C14,17.8621937 13.8302388,18.2122014 13.5284926,18.4691753 L8.72550055,22.5985761 C8.43133084,22.8518745 8.03342657,22.9959828 7.61711777,22.9999971 C6.96911222,23.0011301 6.38432761,22.6660355 6.13616825,22.1513799 Z" id="ic_back_c01" transform="translate(10.000000, 17.500000) scale(-1, 1) rotate(180.000000) translate(-10.000000, -17.500000) "></path>
+        </g>
+    </g>
+</svg>
