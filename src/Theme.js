@@ -1,40 +1,52 @@
 import { injectGlobal } from 'styled-components';
-// import styledNormalize from 'styled-normalize';
+import styledNormalize from 'styled-normalize';
 
 // global css; only add to this if there are no other options
 export const globalCSS = injectGlobal`
   @import url("https://unpkg.com/react-select@1.2.1/dist/react-select.css");
+  ${styledNormalize}
 `;
 
 const colors = {
   black: '#000000',
-  white: '#FFFFFF',
-  gray: [
-    '#8e8e90', // 0
-    '#161616', // 1
-    '#F2F2F2', // 2
+  white: '#ffffff',
+  transparent: 'transparent',
+  green: [
+    '#00bf8f',
+    '#009972',
+    '#085e45',
   ],
   blue: [
-    '#273542', // 0
-    '#5F7D8A', // 1
-    '#0079B4', // 2
-    '#A7CDE7', // 3
+    '#616a9b',
+    '#7786b7',
+    '#353f5b',
+    '#1faee3',
+    '#5082e5',
   ],
-  cyan: [
-  ],
-  green: [
-    '#90BE00', // 0
-    '#E9FFAA', // 1
-  ],
-  orange: [
-    '#CA5B01', // 0
-  ],
-  red: [
+  gray: [
+    '#727272',
+    '#ededed',
+    '#aaaaaa',
+    '#d1d1d1',
+    '#e5e0d3',
   ],
   yellow: [
-    '#D8C6B1',
+    '#fae7a8',
+    '#f9cd46',
   ],
-  transparent: 'transparent',
+  orange: [
+    '#faab43',
+    '#ff794d',
+  ],
+  red: [
+    '#ff5867',
+    '#dd364a',
+  ],
+  brown: [
+    '#7b5533',
+    '#6d482b',
+    '#51272f',
+  ],
 };
 
 const fontSizes = [
@@ -83,10 +95,6 @@ const borders = [
 ];
 
 const letterSpacings = [
-  'normal',
-  '0.1em',
-  '0.2em',
-  '0.3em',
 ];
 
 const radii = [
@@ -103,8 +111,11 @@ const lineHeights = [
   1.5,
 ];
 
+// QUESTION: How do we import fonts? Typekit? Typography.com?
 const fontFamily = {
-  heading: '"Open Sans", Arial, Helvetica, sans-serif',
+  heading: '"Grilled Cheese"',
+  subHeading: 'Helvetica Neue Bold',
+  body: 'Helvetica Neue Regular',
 };
 
 const Theme = {
